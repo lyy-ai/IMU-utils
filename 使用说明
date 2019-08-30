@@ -1,0 +1,11 @@
+vio_sim_ws文件夹里ros版本生成imu.bag数据包，rosrun vio_data_simulation vio_data_simulation_node 
+在param.h里有设置的初始陀螺和加速度的biag和噪声
+
+生成的imu.bag在catkin_imu_utils中标定
+rosbag play -r 500 imu.bag 
+roslaunch imu_utils A3.launch //改launch文件的imutopic
+
+生成的估计值和IMU设定的初始值作对比，差根号下dt
+
+
+

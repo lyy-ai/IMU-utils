@@ -1,0 +1,2 @@
+.
+-DCATKIN_DEVEL_PREFIX=/home/lyy/000slam_vio/2/vio_sim_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lyy/000slam_vio/2/vio_sim_ws/install -G Unix Makefiles

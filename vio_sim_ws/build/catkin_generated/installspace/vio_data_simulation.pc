@@ -1,0 +1,8 @@
+prefix=/home/lyy/000slam_vio/2/vio_sim_ws/install
+
+Name: vio_data_simulation
+Description: Description of vio_data_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lyy/000slam_vio/2/vio_sim_ws/install/lib 
+Requires: 
